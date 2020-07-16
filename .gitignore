@@ -6,6 +6,8 @@ node_modules
 /dist
 .sass-cache/
 
+# Private
+
 # Lock
 yarn.lock
 package-lock.json
