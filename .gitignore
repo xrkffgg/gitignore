@@ -1,14 +1,22 @@
 # @source: https://github.com/xrkffgg/gitignore/blob/master/.gitignore
 
-# Normal
-.DS_Store
-node_modules
+# production
 /dist
-.sass-cache/
+/docs-dist
+
+# Log file
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Private
 
-# Lock
+# misc
+.DS_Store
+
+# dependencies
+node_modules
 yarn.lock
 package-lock.json
 
@@ -22,12 +30,6 @@ package-lock.json
 *.sass.map
 *.scss.map
 
-# Log file
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
 # Editor directories and files
 .idea
 .vscode
@@ -37,3 +39,12 @@ yarn-error.log*
 *.sln
 *.sw?
 ~$*.*
+
+# umi
+.umi
+.umi-production
+.umi-test
+.env.local
+
+# cache
+.sass-cache/
