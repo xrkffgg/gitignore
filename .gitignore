@@ -48,3 +48,6 @@ package-lock.json
 
 # cache
 .sass-cache/
+
+# test
+coverage
